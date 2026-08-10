@@ -33,7 +33,6 @@ export function Header() {
             SimplePortfolio
           </NavLink>
 
-          {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-8">
             {NAV_LINKS.map((link) => (
               <NavLink key={link.to} to={link.to} end={link.end} className={desktopLinkClass}>
@@ -45,7 +44,6 @@ export function Header() {
             </NavLink>
           </nav>
 
-          {/* Mobile menu toggle */}
           <button
             type="button"
             onClick={() => setIsMenuOpen((prev) => !prev)}
@@ -58,7 +56,6 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile nav */}
       <div
         className={`lg:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out ${
           isMenuOpen ? "max-h-96" : "max-h-0"

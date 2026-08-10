@@ -3,7 +3,7 @@ import { ArrowRightIcon } from "@/components/ui/icons";
 
 const PROFILE = {
   summary:
-    "I'm a bsit student who enjoys turning ideas into fast, accessible and visually polished web experiences. I care about clean code, thoughtful UI and shipping things that actually work.",
+    "I'm a BSIT student who likes turning ideas into web experiences that are fast and accessible with real attention to how they look. Clean code and thoughtful UI matter to me but what matters most is shipping something that actually works.",
 };
 
 export function ProfileSection() {
