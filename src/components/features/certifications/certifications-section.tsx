@@ -9,7 +9,7 @@ type Certification = {
   issuer: string;
   date: string;
   link: string;
-  badge: string; // imported image path, or "" while you don't have one yet
+  badge: string; 
 };
 
 const CERTIFICATIONS: Certification[] = [

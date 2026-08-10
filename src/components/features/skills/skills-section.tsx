@@ -22,7 +22,7 @@ const CATEGORIES: SkillCategory[] = [
     skills: [
       { name: "React", level: 4 },
       { name: "TypeScript", level: 4 },
-      { name: "Tailwind CSS", level: 4 },
+      { name: "Tailwind CSS", level: 5 },
       { name: "HTML", level: 5 },
       { name: "CSS", level: 5 },
     ],
@@ -32,9 +32,9 @@ const CATEGORIES: SkillCategory[] = [
     name: "Backend",
     Icon: ServerIcon,
     skills: [
-      { name: "Node.js", level: 3 },
-      { name: "Express", level: 3 },
-      { name: "REST APIs", level: 3 },
+      { name: "Node.js", level: 4 },
+      { name: "Express", level: 4 },
+      { name: "REST APIs", level: 4 },
     ],
   },
   {
@@ -44,8 +44,8 @@ const CATEGORIES: SkillCategory[] = [
     skills: [
       { name: "Git", level: 4 },
       { name: "Vite", level: 4 },
-      { name: "ESLint", level: 3 },
-      { name: "Figma", level: 3 },
+      { name: "ESLint", level: 4 },
+      { name: "Figma", level: 4 },
     ],
   },
 ];
