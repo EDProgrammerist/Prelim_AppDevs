@@ -43,8 +43,8 @@ const CATEGORIES: SkillCategory[] = [
     Icon: SettingsIcon,
     skills: [
       { name: "Git", level: 4 },
-      { name: "Vite", level: 4 },
-      { name: "ESLint", level: 4 },
+      { name: "Expo", level: 4 },
+      { name: "GitHub", level: 4 },
       { name: "Figma", level: 4 },
     ],
   },
