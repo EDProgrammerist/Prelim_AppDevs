@@ -18,7 +18,7 @@ const CERTIFICATIONS: Certification[] = [
     name: "Endpoint Security",
     issuer: "Cisco",
     date: "2026",
-    link: "https://www.credly.com/badges/39086287-9df0-4f37-8935-548df18738e3/public_url",
+    link: "https://www.credly.com/badges/41b2a962-7909-424e-bee4-a27660fd137a/public_url",
     badge: endpointSecurityBadge,
   },
   {
@@ -26,7 +26,7 @@ const CERTIFICATIONS: Certification[] = [
     name: "Introduction to Cybersecurity",
     issuer: "Cisco",
     date: "2026",
-    link: "https://www.credly.com/badges/41b2a962-7909-424e-bee4-a27660fd137a/public_url",
+    link: "https://www.credly.com/badges/39086287-9df0-4f37-8935-548df18738e3/public_url",
     badge: introToCybersecurityBadge,
   },
 ];
